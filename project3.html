@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stock News Sentiments Analysis</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="default.css" type="text/css">
+
+    </head>
+
+<body>
+    
+    <div class="nav-wrapper">
+        <div class="dots-wrapper">
+          <div id = "dot-1" class="browser-dot"></div> 
+          <div id = "dot-2" class="browser-dot"></div> 
+          <div id = "dot-3" class="browser-dot"></div> 
+        </div>
+        <ul id="navigation">
+            <li><a href="index.html#contact">contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main-container">
+		<br>
+
+		<h3>Stock News Sentiments Analysis</h3>
+
+		<p>This was a walk-through project I did while I was learning use of Python in stock market. My goal of this walk-thorugh video was to 
+			get introduced to liberies like BeautifulSoup, SentimentIntensityAnalyzer, pandas and matplotlib.
+		<br>
+		<br>
+		Using the finviz website BeautifulSoup parse the website to get the lates news on three given ticker. Since all the news section is at the bottom of their website on table format
+		I use loop and properties of array to get the headline of the news.
+		<br>
+		<br>
+		Once we have the headline of the new, I pass that to sentiments intensity analyzer to get the polarity score. Pandas is one of the best data science tool to operate on data so I used pandas
+		to create a dataframe so I can see the result on plot using pyplot.
+		<br>
+		<br>
+		This is a walk through project I was really interested in while learning python.</p>
+
+		<h5>Technologies:</h5>
+		<ul>
+			<li>- Python</li>
+			<li>- Visual Studio Code</li>
+			<li>- Pandas</li>
+			<li>- BeautifulSoup</li>
+			<li>- SentimentIntensityAnalyzer</li>
+			<li>- matplotlib</li>
+		</ul>
+
+
+		<h5>Script Screenshot</h5>
+		<div class="img-container">
+			<img class="proj-img"src="script-screenshot.PNG">
+		</div>
+
+		<h5>Output</h5>
+		<div class="img-container">
+			<img class="proj-img"src="sentiment-result.PNG">
+		</div>
+
+		<h5 style="margin-bottom: -20px;">Complete code on my GitHub Page</h5>
+		<div class="media-links">
+			<a href="https://github.com/RaguNeopaney/Sentiment-Analysis-and-Visualization-of-Stock-News" class="fa fa-github" target="_blank" style="margin-left: -100px; margin-top: -50px; padding-bottom: 10px;">GitHub</a>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
